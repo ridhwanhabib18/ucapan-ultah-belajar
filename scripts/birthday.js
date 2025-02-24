@@ -220,6 +220,48 @@ const animationTimeline = () => {
       },
       "-=2"
     )
+    // .to(
+    //   ".profile-picture",
+    //   0.7,
+    //   {
+    //     scale: 0.2,
+    //     opacity: 0,
+    //   },
+    //   "+=2"
+    // )
+    .from(
+      ".profile-picture2",
+      0.5,
+      {
+        scale: 3.5,
+        opacity: 0,
+        x: 25,
+        y: -25,
+        rotationZ: -45,
+      },
+      "-=2"
+    )
+    .from(
+      ".profile-picture3",
+      0.5,
+      {
+        scale: 3.5,
+        opacity: 0,
+        x: 25,
+        y: -25,
+        rotationZ: -45,
+      },
+      "-=2"
+    )
+    // .to(
+    //   ".profile-picture2",
+    //   0.7,
+    //   {
+    //     scale: 0.2,
+    //     opacity: 0,
+    //   },
+    //   "+=2"
+    // )
     .from(".hat", 0.5, {
       x: -100,
       y: 350,
