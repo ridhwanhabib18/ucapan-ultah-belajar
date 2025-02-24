@@ -229,30 +229,30 @@ const animationTimeline = () => {
     //   },
     //   "+=2"
     // )
-    .from(
-      ".profile-picture2",
-      0.5,
-      {
-        scale: 3.5,
-        opacity: 0,
-        x: 25,
-        y: -25,
-        rotationZ: -45,
-      },
-      "-=2"
-    )
-    .from(
-      ".profile-picture3",
-      0.5,
-      {
-        scale: 3.5,
-        opacity: 0,
-        x: 25,
-        y: -25,
-        rotationZ: -45,
-      },
-      "-=2"
-    )
+    // .from(
+    //   ".profile-picture2",
+    //   0.5,
+    //   {
+    //     scale: 3.5,
+    //     opacity: 0,
+    //     x: 25,
+    //     y: -25,
+    //     rotationZ: -45,
+    //   },
+    //   "-=2"
+    // )
+    // .from(
+    //   ".profile-picture3",
+    //   0.5,
+    //   {
+    //     scale: 3.5,
+    //     opacity: 0,
+    //     x: 25,
+    //     y: -25,
+    //     rotationZ: -45,
+    //   },
+    //   "-=2"
+    // )
     // .to(
     //   ".profile-picture2",
     //   0.7,
